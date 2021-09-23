@@ -20,9 +20,4 @@ engine_version="8.0.20"
 
 db_instance_class="db.t2.micro"
 
-username="admin"
-
-password="password123"
-
-
 
