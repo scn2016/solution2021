@@ -1,6 +1,6 @@
 # solution2021
 
-##Pre requiste to run this code in you environment. 
+Pre requiste to run this code in you environment. 
 
 Install Terraform & AWS CLI
 Sign up for an AWS Account
