@@ -1,0 +1,111 @@
+{
+    "meta-data": {
+        "ami-id": "ami-03bda7009803bace6", 
+        "ami-launch-index": 0, 
+        "ami-manifest-path": "(unknown)", 
+        "block-device-mapping": {
+            "ami": "sda1", 
+            "root": "/dev/sda1"
+        }, 
+        "events": {
+            "maintenance": {
+                "history": [], 
+                "scheduled": []
+            }
+        }, 
+        "hostname": "ip-172-31-8-1.ap-southeast-1.compute.internal", 
+        "iam": {
+            "info": {
+                "Code": "Success", 
+                "InstanceProfileArn": "arn:aws:iam::045981373300:instance-profile/ssmRole", 
+                "InstanceProfileId": "AIPAJXXEC5234YY4WVOMC", 
+                "LastUpdated": "2021-09-23T13:06:36Z"
+            }, 
+            "security-credentials": {
+                "ssmRole": {
+                    "AccessKeyId": "ASIAQVNFUCN2KQDHHWER", 
+                    "Code": "Success", 
+                    "Expiration": "2021-09-23T19:41:36Z", 
+                    "LastUpdated": "2021-09-23T13:07:18Z", 
+                    "SecretAccessKey": "KaJARzvgsmT/+TQjA00rZs8Pj0LoO58YB/HajxpP", 
+                    "Token": "IQoJb3JpZ2luX2VjEMX//////////wEaDmFwLXNvdXRoZWFzdC0xIkcwRQIgI5JL5D8XUSIa4vGmE+IyS7f0DkSkyg2MugChHM5yGhcCIQC432YmUV+RcKthuI/5NQxxvhSkwg+AXtSJoaGBlChxMyqEBAguEAAaDDA0NTk4MTM3MzMwMCIMBSF730S+TjbFhkVTKuEDzZNFnXqsBPBTFo4CtViCvRc/tlduMbPO2UJkHoTwumFKD7GT7PXkKVVtVDxKWiBk34nlX08ZMGwfKsC3h6bfdlz4Zpj4ZYWwLrq+HRwTRNmhmEm/lbUqc+sV2c78E3cKdD/TcuLFfEfkqKNqbtlgCy0M9SmnaMqqrHCPfSLc9v7RVhmsj85wkHsuqK/jUPEH+g0ENuyDJaFs7M1h1ZMozyHxUzL7Rq4r8YiK4mFh9mA2rPAxjX1VTkeYCRgbaUotT7bGxgsAXyjLT5KZ1jldC3ES22A9G632hP1nsj8Yf7SLjYA/TGzhEo6n4JYQLTCpgtQELapLmiO3P0XHKkHgflh0MfTs1LflKdJR0GrmVeYk1Sj9nekThpXBtLF9UcDlFKqP8FKzpGgB1LD0QfgXjrlYlLGrQeVjxE5BssDsKm95LsTcqtaoWN8yxk45ebSf2kDYQyX6NuU3f0NIlCy5EDtjMi9zo52pe/gik5I2KDSWwDBzOODqexLItvG2ra4n4K2tGgTTxPR4zUyJ8q2QucLNlX9+kAZzU0nzdZGtBnRwWMfnSjXLx5zAOsS/qJnUeYvEZWer9Kdwr7aX39As6W5k2rhnzHpY0xzYpImAyWToCWP5RYWMqdctJmAbn5By8zDc97GKBjqlAQMTUicsBtbtdZN9YSHKRdBOJ+k+PKKO1qFLl8l+/TAVgBjCCjUZvgUJPYSdkDupq5OnAKZeuz74DkG3eA2UkkP5J0+V1DWVHTO7Y/Usmp7i8iAYoo/syuzK0Lkn/cc+v8v2hVO4hV4jFBajc9jyj1mDrf2LVaPEVmy0B8uKoOrLik7r8HQYwk3OHsnJsDF3Ugb26wulD924QdfkXEyg4n0NyLgTwQ==", 
+                    "Type": "AWS-HMAC"
+                }
+            }
+        }, 
+        "identity-credentials": {
+            "ec2": {
+                "info": {
+                    "AccountId": "045981373300", 
+                    "Code": "Success", 
+                    "LastUpdated": "2021-09-23T13:05:41Z"
+                }, 
+                "security-credentials": {
+                    "ec2-instance": {
+                        "AccessKeyId": "ASIAQVNFUCN2IWM5CPFZ", 
+                        "Code": "Success", 
+                        "Expiration": "2021-09-23T19:08:46Z", 
+                        "LastUpdated": "2021-09-23T13:06:06Z", 
+                        "SecretAccessKey": "vun8mmsbMXit6/o7jalgeRXIp96MlsLTI/0Ibn8n", 
+                        "Token": "IQoJb3JpZ2luX2VjEMX//////////wEaDmFwLXNvdXRoZWFzdC0xIkYwRAIgAM2Ge3Xbej5Iy4Y8xM3Ic03yF7plZ9OdGdI9DFOuWuACIC5qlCnKR8Cd2bOIQ1WzwJDLs7ZATwd2tMQVYgEgOEVeKskDCC4QABoMMDQ1OTgxMzczMzAwIgzmt8T3n4KBxiTinLoqpgMEaOuI96hwSCx+jACcAEEP7yKV1kgJtgOLWl+4faj2b8U3jq6bEqrRHqkk9JzvQx6IMkBLdSRv6Wckkf9nR5FmUcTb2coWAFD8Eu4Cpa8D7OSvql7yDHy/wj6QP9fqoX20TUCI6mDUKqZYg36wnT55mLDAXAwgOmfexbUn4JHrEm7fEwTDbotP9hg/kOVU4ZDALkLjtoP7tzQ6u2cg3tBWGa8ZHS7R2wxtmkUelciERSNvocFu4WIamRupWAK9o6Vo3Aj606NXak1n1r+88+c3Tvp6NlrdR4xosHs+p8KGA1RxTnJpfz6Tj5Byd91RQg/ytml1G9AScDU1EhhsKKk5pTeXNEL2tikmeyidVZm99IkciL+eEfmkuBheY1FaRdsXT0p1b0bHNJ2YIm1oTC5z6OcTXaoyb4tw+KBA1oWafjdgOiWUPBTUm7taY1lqnARCw0Etm2rC8M8hl4Sk6u2mBCWXTWPexsnQeYo5aLeuzI5RQWBLJZtevmtLt6PPX8yPC3BqLMmAcocN1gr6zG+vv8NG4UJclnQFksgAwi0LvAoIpPAFSjDb97GKBjroAUkWz2mZMwNwlBVo4pIdUZpi81XKMW1ij/UnhhKdEbtAnoC5SbA1OB00XIs/M+7nJdooXkGbxX0nvVEBJAVwEnOYiD3Yj6UQRo/T8K+RNqSzUyjmzjNgR4ROR+tj988av93idl4YjFhleNBkyTsvb4kzJlvt+RVQUmVC6p51OwTPWgKkRgROdUV1G1bNaXKkmEcfXcjwxGnQQ77OasPBre9qieXyOE20G8RsLvk3Zx14JlbNytuWrNxg3IO4V2BCqILiQY2qvQwnBk5Oj1lWa7ZdcDw7JOpSz0QrIsu4M5Lj/a+Ca+q8vSQ=", 
+                        "Type": "AWS-HMAC"
+                    }
+                }
+            }
+        }, 
+        "instance-action": "none", 
+        "instance-id": "i-093f79ea3450d3d3a", 
+        "instance-life-cycle": "on-demand", 
+        "instance-type": "t3a.small", 
+        "ipv6": "2406:da18:77c:6101:de15:d731:2d22:9674", 
+        "local-hostname": "ip-172-31-8-1.ap-southeast-1.compute.internal", 
+        "local-ipv4": "172.31.8.1", 
+        "mac": "02:ef:4e:0e:db:5a", 
+        "metrics": {
+            "vhostmd": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
+        }, 
+        "network": {
+            "interfaces": {
+                "macs": {
+                    "02:ef:4e:0e:db:5a": {
+                        "device-number": 0, 
+                        "interface-id": "eni-01eb52fa7962c8e5d", 
+                        "ipv4-associations": {
+                            "52.77.226.209": "172.31.8.1"
+                        }, 
+                        "ipv6s": "2406:da18:77c:6101:de15:d731:2d22:9674", 
+                        "local-hostname": "ip-172-31-8-1.ap-southeast-1.compute.internal", 
+                        "local-ipv4s": "172.31.8.1", 
+                        "mac": "02:ef:4e:0e:db:5a", 
+                        "owner-id": "045981373300", 
+                        "public-hostname": "ec2-52-77-226-209.ap-southeast-1.compute.amazonaws.com", 
+                        "public-ipv4s": "52.77.226.209", 
+                        "security-group-ids": "sg-06a5218d3a2d43d2a", 
+                        "security-groups": "Cloud Servers", 
+                        "subnet-id": "subnet-164fc67e", 
+                        "subnet-ipv4-cidr-block": "172.31.0.0/20", 
+                        "subnet-ipv6-cidr-blocks": "2406:da18:77c:6101:0:0:0:0/64", 
+                        "vpc-id": "vpc-154fc67d", 
+                        "vpc-ipv4-cidr-block": "172.31.0.0/16", 
+                        "vpc-ipv4-cidr-blocks": "172.31.0.0/16", 
+                        "vpc-ipv6-cidr-blocks": "2406:da18:77c:6100:0:0:0:0/56"
+                    }
+                }
+            }
+        }, 
+        "placement": {
+            "availability-zone": "ap-southeast-1b", 
+            "availability-zone-id": "apse1-az1", 
+            "region": "ap-southeast-1"
+        }, 
+        "profile": "default-hvm", 
+        "public-hostname": "ec2-52-77-226-209.ap-southeast-1.compute.amazonaws.com", 
+        "public-ipv4": "52.77.226.209", 
+        "reservation-id": "r-028c75780f6e5931d", 
+        "security-groups": "Cloud Servers", 
+        "services": {
+            "domain": "amazonaws.com", 
+            "partition": "aws"
+        }
+    }
+}
