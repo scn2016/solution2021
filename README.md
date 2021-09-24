@@ -8,8 +8,8 @@
 
 ## Requirements
 * Git 
-* Terraform Version : ">= 0.12.16"
-* AWS provider Version : ">= 2.38.0"
+* Terraform Version : ">=  0.12.31"
+* AWS provider Version : ">= 3.12.0"
 
 # Architecture Image
 
@@ -19,5 +19,5 @@
 
 Creates an Resource on the AWS by using the given terraform code.
 
-* IAC using terraform (VPC,Subnets,route tables, nat gateway , internet gw , EKS cluster & node pool , security groups/rules)
+* IAC using terraform (RDS,EC2,ELB,Security Group,VPC,Subnets,route tables,internet gw, user data scripts)
 
